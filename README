@@ -1,0 +1,21 @@
+LJ-cut style plugin for Wordpress
+version 0.0.1 b
+
+Adds shortcode emulating LJ-like cat with additions functionality.
+
+Use: [lj-cut] Text under the cut [/ lj-cut].
+Optional parameters:
+- Text = "text links to tackle," default 'Read more ...' 
+- unicancor = "unically-ancor", it allows you to specify a unique anchor for the region
+the page to which the link leads cut. Use only letters and symbols "-" and "_". The anchor must be unique.
+By default, the anchor used in LiveJournal style (cutid1, cutid2 etc.).
+
+Possible to use shortcode several times in one post.
+The plugin requires Javascript and CSS does not use special features.
+
+Examples:
+[Lj-cut] some big text [lj-cut]
+[Lj-cut text = "bigtext"] some big text [lj-cut]
+[Lj-cut text = "bigtext" unicancor = "big_text"] some big text [lj-cut]
+
+(L) Tolik Punkoff, 2016
